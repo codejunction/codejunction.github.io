@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Abhishek D3 | Welcome</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <!-- Include CSS files -->
+    <link rel="stylesheet" href="./css/blaze.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap-responsive.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap-responsive.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/materialize.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/materialize.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Include JavaScript files -->
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script src="./js/materialize.min.js"></script>
+
+    <script>
+      $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+      })
+    </script>
+  </head>
+  <body>
+      <header>
+        <nav class="container-fluid button-collapse" style="background-color:#4EB1BA">
+          <div class="nav-wrapper">
+            <h4 class="white-text text-darken-4" style="font-family: 'Fredericka the Great', cursive; font-size:40px; float:left">ADLabs</h4>
+            <a data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="r hide-on-med-and-down">
+
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a class="active" href="index.html"><i title="Home" class="material-icons active">home</i></a></li>
+              <li><a href="about.html"><i title="About" class="material-icons">person</i></a></li>
+              <li><a href="contact.html"><i title="Contact" class="material-icons">mail</i></a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+      <section id="welcome_text" class="container-fluid">
+        <div class="c-hero u-letter-box--super u-centered">
+          <h1 class="c-heading c-heading--xlarge u-window-box--none white-text text-darken-4" style="font-family: 'Lobster', cursive;font-size:75px">Welcome</h1>
+          <h2 class="c-heading c-heading--small u-window-box--none c-text--quiet" style="font-family: 'Lobster', cursive;font-size:30px">To the abode of Technology</h2>
+        </div>
+      </section>
+      <section id="card1">
+        <div class="row container-fluid">
+          <!-- Left Card -->
+          <div class="col s4">
+              <div class="card-panel green lighten-3">
+                  <span id="card1" class="black-text text-darken-2">Card Left</span>
+              </div>
+          </div>
+          <!-- Middle Card -->
+          <div class="col s4">
+              <div class="card-panel pink lighten-3">
+                  <span id="card2" class="black-text text-darken-2">Card Middle</span>
+              </div>
+          </div>
+          <!-- Right Card -->
+          <div class="col s4">
+              <div class="card-panel cyan lighten-3">
+                  <span id="card3" class="black-text text-darken-2">Card Right</span>
+              </div>
+          </div>
+        </div>
+      </section>
+
+  </body>
+</html>
