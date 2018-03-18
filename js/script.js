@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  AOS.init();
    $('.parallax').parallax();
    $('.collapsible').collapsible();
    $('.scrollspy').scrollSpy();
