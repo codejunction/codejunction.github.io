@@ -51,9 +51,9 @@ body {
   right: 35px;
 }
 }
-.parallax-container {
+/*.parallax-container {
       height: 720px;
-}
+}*/
 
 body::-webkit-scrollbar {
   width: 5px;

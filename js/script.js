@@ -1,9 +1,22 @@
 $(document).ready(function(){
+	$('.parallax-container').css('height', window.innerHeight)
   AOS.init();
    $('.parallax').parallax();
    $('.collapsible').collapsible();
    $('.scrollspy').scrollSpy();
    $('.tooltipped').tooltip({delay: 50});
+   window.onresize = function(event) {
+    $('.parallax-container').css('height', window.innerHeight)
+};
+   $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > window.innerHeight) {
+                $('.nav-head').fadeIn("fast");
+            } else {
+                $('.nav-head').fadeOut("fast");
+            }
+        });
 });
 //--------------------------Analytics-------------------------------------------
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
